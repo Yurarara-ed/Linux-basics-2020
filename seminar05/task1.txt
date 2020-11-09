@@ -1,13 +1,15 @@
 # print your command here
 
-a. git init ...
+a. git init linuxhw / git commit -m "Null commit" #create a local repo and make a null commit
 
-b.
+b. git status . ##check files that should be commited## git add . ##add bio.md / main.cpp / and task1.txt to commit## git commit -m "add bio.md and main.cpp"
 
-c.
+c.	create '.gitignore' file and add "main" to it. git status (check files) git add . (add all files instead of binary(main)) git commit -m "add Makefile"      
 
-d.
+d. Three new commits. Third commit with this text.
 
-e.
+e. git checkout "id of first commit" / git checkout -b cmake / add binary files in a .gitignore / git status (checking before commit) / git add . / git commit -m "Create CMakeLists.txt" / git checkout master 
 
-f.
+f. git merge cmake
+
+
