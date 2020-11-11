@@ -1,1 +1,14 @@
-# print your commands
+sudo docker pull haskell
+
+sudo docker run -it --rm haskell:8 #Run haskell
+
+Unable to find image 'haskell:8' locally
+8: Pulling from library/haskell
+Digest: sha256:61fd2def20725f174a61d27b59e9d0e4f121f6637542bcbe03a4535f28aee7f5
+Status: Downloaded newer image for haskell:8
+GHCi, version 8.10.2: https://www.haskell.org/ghc/  :? for help
+Prelude> 2+3
+5
+Prelude> print "Hello world"
+"Hello world"
+

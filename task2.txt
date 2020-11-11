@@ -1,1 +1,18 @@
-# print your commands
+sudo docker build --tag py-server . #Build Dockerfile
+
+sudo docker run -p 65432:65432 -d py-server #Run in background
+
+sudo docker ps #Check running - all ok
+
+telnet localhost 65432 #Connect to a py-server
+
+Trying 127.0.0.1...  #Output
+Connected to localhost.
+Escape character is '^]'.
+HELLO HELLO HElLO HELLO HOW LOW
+OK:HELLO HELLO HElLO HELLO HOW LOW
+WITH THE LIGHTS OUT
+OK:WITH THE LIGHTS OUT
+ITS LESS DANGEROUS
+OK:ITS LESS DANGEROUS
+
